@@ -11,7 +11,6 @@ public class JavaMethods {
 //        e.g of an inbuilt method is System.out.println();
     
         static void printName(String name){
-            System.out.println("Java is awesome!!!");
             System.out.println("I am called" + name);
         }
         static void addition(int num1, int num2){//this method takes one parameter(num1)
@@ -26,7 +25,7 @@ public class JavaMethods {
 //Assignment: create a method that gets the difference between two numbers
 //    printName: name of method
 //    static: The method belongs to the JavaMethods Class
-//
+//    void: This method DOES not return a value
 
 //    Returning a value
 //    Use void in a method when it's not going to return a value
